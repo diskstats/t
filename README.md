@@ -19,15 +19,6 @@
   }
 ```
 
-### Use a custom template with prefered servers and the iburst option.
-```puppet
-  class { '::ntp':
-    servers => ['0.pool.ntp.org iburst', '1.pool.ntp.org iburst'],
-    conffile => template("${module_name}/ntp.conf-${::operatingsystemmajrelease}.erb"), 
-  }
-```
-
-
 ## Paramaters
 
 `server`
