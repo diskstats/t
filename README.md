@@ -1,5 +1,3 @@
-```
-
 [About](#about)
 [Example](#example)
 
