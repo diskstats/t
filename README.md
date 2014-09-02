@@ -10,12 +10,12 @@ Lean RedHat NTP client module, with the most common settings.
 
 ## Examples
 
-### Use all the default settings.
+#### Use all the default settings.
 ```puppet
    include '::ntp'
 ```
 
-### Set prefered servers.
+#### Set prefered servers.
 ```puppet
   class { '::ntp':
     servers => ['0.pool.ntp.org', '1.pool.ntp.org'],
