@@ -1,9 +1,16 @@
 - [About](#about)
 - [Example](#example)
 
+`conffile`
+- *type:* string|array
+- *default:* "${module_name}/ntp.conf.erb"
 
-hello _yo_
-hello __yo__
+`ensure`
+- *type:* string
+- *values:* __enabled__, __disabled__
+- *default:* 'enabled'
+
+
 
 ## About
 - 1
