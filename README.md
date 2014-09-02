@@ -4,12 +4,10 @@
 [Example](#example)
 
 
-### About
-
+## About
 - 1
 - 2
 
-### Example
-
+## Example
 - a
 - b
