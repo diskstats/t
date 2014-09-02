@@ -24,7 +24,7 @@ A blockquote
 ```
 ls
 ```
-2. two
+*2.* two
 ```
 top
 ```
